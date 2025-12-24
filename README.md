@@ -31,3 +31,21 @@ The top financial ratios influencing bankruptcy predictions are:
 * **Retained Earnings to Total Assets**
 * **Net profit before tax/Paid-in capital**
 * **Per Share Net profit before tax (Yuan ¥)**
+
+## **Machine Learning Models**
+All models were evaluated using accuracy, precision, recall, and F1-score to ensure robust performance comparison.
+
+### **Models Used**
+* **Logistic Regression**
+* **Decision Tree Classifier**
+* **Random Forest Classifier**
+* **Support Vector Machine**
+* **K-Nearest Neighbors(KNN)**
+### **Model Performance**
+* **Hyper parameter tuning and cross validation in decision tree (Accuracy-0.82)**
+* **Hyper parameter tuning and cross validation in random forest (Accuracy-0.83)**
+* **Ensemble voting in random forest (accuracy-0.85)**
+
+
+
+
