@@ -15,3 +15,19 @@
 * **Normalize the features(using standardscaler).**
 * **For data imbalance using RandomUnderSampler**
 * **Split data into training (80%) and testing (20%) sets for model building.**
+
+## **Exploratory Data Analysis**
+<img width="713" height="546" alt="image" src="https://github.com/user-attachments/assets/83521b60-021e-4f74-859c-694c0ed89ff3" />
+
+### **Top Features correlates with bankruptcy**
+The top financial ratios influencing bankruptcy predictions are:
+* **Net Income to Total Assets**
+* **ROA(A) before interest and % after tax**
+* **ROA(B) before interest and depreciation after tax**
+* **ROA(C) before interest and depreciation before interest**
+* **Net worth/Assets**
+* **Debt ratio %**
+* **Persistent EPS in the Last Four Seasons**
+* **Retained Earnings to Total Assets**
+* **Net profit before tax/Paid-in capital**
+* **Per Share Net profit before tax (Yuan ¥)**
