@@ -46,6 +46,9 @@ All models were evaluated using accuracy, precision, recall, and F1-score to ens
 * **Hyper parameter tuning and cross validation in random forest (Accuracy-0.83)**
 * **Ensemble voting in random forest (accuracy-0.85)**
 
+## **Model Performance**
+<img width="897" height="290" alt="image" src="https://github.com/user-attachments/assets/eeeb790d-40b8-458a-95e6-48f3a519884f" />
+
 
 
 
