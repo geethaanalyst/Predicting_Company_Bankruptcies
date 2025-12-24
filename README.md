@@ -49,6 +49,14 @@ All models were evaluated using accuracy, precision, recall, and F1-score to ens
 ## **Model Performance**
 <img width="897" height="290" alt="image" src="https://github.com/user-attachments/assets/eeeb790d-40b8-458a-95e6-48f3a519884f" />
 
+## **Key Insights**
+* **Financial leverage, liquidity, and profitability metrics are strong predictors.**
+* **High debt ratios, low ROA & low liquidity strongly linked to bankruptcy risk.**
+* **Certain efficiency ratios have less impact.**
 
-
-
+## **Conclusion**
+* **Profitability ratios (Net Income to Assets, ROA variants) are the strongest early warning signals.**
+* **Leverage ratios (Debt % and Net Worth/Assets) also significantly impact bankruptcy probability.**
+* **Using RandomUnderSampler improves model sensitivity to bankruptcies but at the cost of potentially losing information from the majority class.**
+* **Ensemble ML models(in voting classifier), especially random forest, achieve  predictive metrics (~85% accuracy) and also logistic regression give same accuracy.**
+* **Careful governance, retraining, and explainability are essential for sustainable deployment.**
